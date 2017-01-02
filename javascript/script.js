@@ -29,10 +29,10 @@ function make_grid(squares) {
 	var j = 1;
 	side = Math.floor(Math.sqrt((960*960) / (squares * squares)));
 
-	while(i < squares){
+	while(i <= squares){
 		$('#container').append('<div class="column'+ i +'"style="display:inline-block;">');
 
-	while(j < squares){
+	while(j <= squares){
 		$('.column'+i).append('<div class="squares" style="width:'+side+'px; height:'+side+'px">');
 			j += 1;
 		}

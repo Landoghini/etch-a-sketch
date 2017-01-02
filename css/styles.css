@@ -7,6 +7,7 @@ h1{
 }
 .reset{
 	margin:20px auto; 
+	margin-left: 45%; 
 }
 .column{
 	margin-bottom:;
@@ -14,6 +15,8 @@ h1{
 #container{
 	margin: auto;
 	width: 960px;
+	border: solid 10px yellow;
+	border-radius: 10px;
 }
 .squares{
 	width: 50px;
